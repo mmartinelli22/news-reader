@@ -1,0 +1,13 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  background-color: salmon;
+}
+
+.title-text {
+  margin-left: 1%;
+  font-size: 150%;
+  margin-right: auto;
+  cursor: default;
+  
+}

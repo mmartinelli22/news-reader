@@ -1,0 +1,25 @@
+.single-article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  /* padding: 10px; */
+  cursor: default;
+}
+
+.article-title {
+  margin-bottom: 0;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.section {
+  margin-bottom: 0;
+  cursor: default;
+}
+
+.byline {
+  margin-top: 0;
+  cursor: default;
+  /* width: 90%; */
+}
