@@ -2,10 +2,8 @@ import "./ArticlesContainer.css";
 import SingleArticle from "../SingleArticle/SingleArticle";
 
 const ArticlesContainer = ({ articles, displaySingleArticle }) => {
-  // WHY YOU NO WOOOOOORK?!?!!?!?!?!?!?!
-  // const sortedSections = articles.sort((a, b) => a.section - b.section);
-  // console.log("SORTED: ", sortedSections);
-  const articleList = articles.map((article) => {
+  let sortedArticles = articles.sort((a,b) => (a.section > b.section) ? 1 : ((b.section > a.section) ? -1 : 0));
+  const articleList = sortedArticles.map((article) => {
     return (
       <SingleArticle
         id={article.title}
@@ -21,8 +19,7 @@ const ArticlesContainer = ({ articles, displaySingleArticle }) => {
   return (
     <div className="section-container">
       <h1>Top Stories</h1>
-      {/* <div className="articles-container">{articleList}</div> */}
-      <div className="articles-container"><SingleArticle /></div>
+      <div className="articles-container">{articleList}</div>
     </div>
   );
 };
