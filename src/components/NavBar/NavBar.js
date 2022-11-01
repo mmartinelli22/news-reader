@@ -1,6 +1,6 @@
 import "./NavBar.css";
 
-const NavBar = ({ articles, setSection }) => {
+const NavBar = () => {
   return (
     <div className="nav-container">
       <h1 className="title-text">NY Times News Reader</h1>

@@ -11,7 +11,17 @@ const ArticleDetails = ({ articleSelected }) => {
         {dayjs(articleSelected.published_date).format("dddd, MMMM D YYYY")}
       </p>
       <h2 className="abstract">{articleSelected.abstract}</h2>
-      <img className="media" src={!articleSelected.multimedia ? <div></div> : articleSelected.multimedia[0].url} alt='/'/>
+      <img
+        className="media"
+        src={
+          !articleSelected.multimedia ? (
+            <div></div>
+          ) : (
+            articleSelected.multimedia[0].url
+          )
+        }
+        alt="/"
+      />
       <a
         className="website-anchor"
         target="_blank"

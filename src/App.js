@@ -18,8 +18,6 @@ function App() {
     fetchArticles().then((data) => setArticles(data.results));
   }, []);
 
-  console.log('ARTICLES: ', articles);
-
   const displaySingleArticle = (title) => {
     const articleSectionPick = articles.find((art) => art.title === title);
     setArticleSelected(articleSectionPick);
