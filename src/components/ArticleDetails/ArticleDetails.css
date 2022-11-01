@@ -24,7 +24,6 @@
   margin-bottom: 2%;
 }
 
-
 .media {
   width: 35%;
   height: auto;
@@ -34,15 +33,13 @@
 .website-anchor {
   margin-bottom: 2%;
   font-weight: bold;
+  font-size: 1.25em;
+  text-decoration: underline;
   transition: 0.2s;
 }
 
 .website-anchor:hover {
   transform: scale(1.05);
-}
-
-.website-anchor:link {
-  text-decoration: none;
 }
 
 .website-anchor:visited {
@@ -54,11 +51,13 @@
 button {
   border-radius: 5px;
   border: none;
-  background-color: salmon;
+  background-color: black;
+  color: whitesmoke;
   padding: 10px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.2s;
+  margin-bottom: 15%;
 }
 
 button:hover {

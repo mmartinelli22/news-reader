@@ -32,17 +32,24 @@ _For the curious developer:_
 
 **USER FLOW:**
 
-Main Page View Article List:
+Main Page Article List:
 
-
+https://user-images.githubusercontent.com/97558758/199298662-c77a0ab5-3f15-4b97-bcc7-f2ea4b9aee14.mov
 
 Article Details:
 
-
+https://user-images.githubusercontent.com/97558758/199298857-5e954a06-a7c7-4f0c-b777-228d90c05768.mov
 
 Article Details Link Article to NY Times Website:
 
+https://user-images.githubusercontent.com/97558758/199298861-7bd6ca47-84db-47e1-a3a3-22a334d6eac5.mov
 
+
+**ERROR HANDLING:**
+
+Bad URL:
+
+https://user-images.githubusercontent.com/97558758/199298862-c44ff294-7d29-4a8d-bd15-9ee6c6a1ce18.mov
 
 <br>
 
@@ -68,8 +75,8 @@ Article Details Link Article to NY Times Website:
 - Best React practices to ensure application stability
 - Provide different React Router routes
 - A consistent, modular file structure
-<!-- - End to End testing with mulitple UX in mind -->
-<!-- - Secure a 95% lighthouse accessibility score on all components -->
+- End to End testing with mulitple UX in mind
+- Secure a 100% lighthouse accessibility score (Mobile & Desktop) on all components
 
 <br>
 

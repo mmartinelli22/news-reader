@@ -1,7 +1,8 @@
 .nav-container {
   display: flex;
   align-items: center;
-  background-color: salmon;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .title-text {
@@ -9,5 +10,4 @@
   font-size: 150%;
   margin-right: auto;
   cursor: default;
-  
 }
