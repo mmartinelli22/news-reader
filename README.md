@@ -14,7 +14,7 @@
 
 ## <b>Getting Started:</b>
 
-<!-- _To simply experience the application visit the link listed above_ -->
+_To simply experience the application visit the [Deployed Site](https://news-reader-teal.vercel.app/)_
 
 _For the curious developer:_
 
