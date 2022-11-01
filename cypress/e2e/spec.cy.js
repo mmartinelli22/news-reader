@@ -11,10 +11,12 @@ describe("User Flow", () => {
       .visit("http://localhost:3000");
   });
 
-  it("Should display stubbed data", () => {
+  it("Should display stubbed data as a list of articles", () => {
     cy.wait("@sampleData")
       .its("response.body.results")
       .should("have.length", 3)
+      .get('.nav-container').should('exist')
+      .get('.title-text').should('contain', 'NY Times News Reader')
       .get(".single-article-container")
       .get("p")
       .first()

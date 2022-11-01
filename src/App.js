@@ -1,6 +1,7 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "../src/components/NavBar/NavBar";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 import ArticlesContainer from "./components/ArticlesContainer/ArticlesContainer";
 import ArticleDetails from "./components/ArticleDetails/ArticleDetails";
 import { useEffect, useState } from "react";
@@ -47,6 +48,15 @@ function App() {
             <div>
               <NavBar />
               <ArticleDetails articleSelected={articleSelected} />
+            </div>
+          )}
+        />
+        <Route
+          path="*"
+          render={() => (
+            <div>
+              <NavBar />
+              <ErrorPage />
             </div>
           )}
         />
