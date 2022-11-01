@@ -8,7 +8,7 @@ const NavBar = ({ articles, setSection }) => {
       {/* <Link to="/" style={{ textDecoration: "none" }}> */}
         <h1 className="title-text">NY Times News Reader</h1>
       {/* </Link> */}
-      <Form articles={articles} setSection={setSection}/>
+      {/* <Form articles={articles} setSection={setSection}/> */}
     </div>
   );
 };
