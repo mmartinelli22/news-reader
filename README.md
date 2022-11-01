@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<h2 align="center">
+  <!-- <img alt="funky" src="./src/assets/mmlogo.png" width="738px"/> -->
+<br>
+<br>
+  This NY Times News Reader lets a user see the top stories of the day pulled from the NY Times website.
+  The article list is sorted by section name for the user's convinience.
+</h2>
+<br>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+## <b>Getting Started:</b>
 
-### `npm start`
+<!-- _To simply experience the application visit the link listed above_ -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_For the curious developer:_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Fork [news-reader](https://github.com/jfarelli/news-reader) repository.
+* Clone to your local machine
+* `cd` into the repository
+* Once in the repository, run `npm install`.
+* After installation, run `npm start`.
+* A live server should now be available at `http://localhost:3000/`.
+* Paste this addresses into your browser to run the app.
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <b>Walkthrough:</b>
 
-### `npm run build`
+**USER FLOW:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Main Page View Article List:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Article Details:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Article Details Link Article to NY Times Website:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## <b>Planning:</b>
 
-### Code Splitting
+- [Wireframe & Component Architecture](https://www.figma.com/file/fKDJPzyMHtcSDRWS2151IU/News-Reader)<br>
+- [Project Board](https://github.com/users/jfarelli/projects/4/views/1)
+- [Project Prompt](https://mod4.turing.edu/projects/take_home/take_home_fe)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+## <b>Features:</b>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**User:**
 
-### Making a Progressive Web App
+- From Main Page, the user can see a list of articles from the NY Times website.
+- A user can click the article title to lead them to a details page about the article.
+- A user can click a link on the details page to see the article on the NY Times website.
+- If a user does not want to view the article, then can click a button to return to the article list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Developer:**
 
-### Advanced Configuration
+- Best React practices to ensure application stability
+- Provide different React Router routes
+- A consistent, modular file structure
+<!-- - End to End testing with mulitple UX in mind -->
+<!-- - Secure a 95% lighthouse accessibility score on all components -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+## <b>Future Extensions:</b>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Have a dropdown, so the user can see a list of articles by section.
+- Search functionality by section, or subsection.
 
-### `npm run build` fails to minify
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## <b>Technologies:</b>
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+<!-- ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) -->
+<br>
+
+## <b>Reflections:</b>
+
+<p>This was a take-home challenge to simulate what it's like applying for a job in the "Real World". We were tasked to only give ourselves 8 working hours to complete this challenge. It was a great run-through of what it'll be like while applying. The stress is real, because you're given a time-frame to complete, and you want to complete it to the best of your ability.
+All in all, this was a great first experience and I'm grateful for the challenge.</p>
+</details>
+
+
+## <b>Contributors:</b>
+
+- Jordan Farelli:
+  [LinkedIn](https://www.linkedin.com/in/jordan-farelli/) | [Github](https://github.com/jfarelli)

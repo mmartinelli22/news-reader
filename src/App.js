@@ -4,22 +4,23 @@ import NavBar from "../src/components/NavBar/NavBar";
 import ArticlesContainer from "./components/ArticlesContainer/ArticlesContainer";
 import ArticleDetails from "./components/ArticleDetails/ArticleDetails";
 import { useEffect, useState } from "react";
+import fetchArticles from "./apiCalls";
+// import * as fs from 'fs'
+// require('dotenv').config()
+// console.log("PROCESS.ENV API KEY: ", process.env.MY_KEY)
 
 function App() {
   const [articles, setArticles] = useState([]);
   const [articleSelected, setArticleSelected] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=jpWw4XQtkRyplJEanHSnWbDdKgJfOGpw"
-    )
-      .then((response) => response.json())
-      .then((data) => setArticles(data.results));
+    fetchArticles().then((data) => setArticles(data.results));
   }, []);
-  
+
+  console.log('ARTICLES: ', articles);
+
   const displaySingleArticle = (title) => {
     const articleSectionPick = articles.find((art) => art.title === title);
-    
     setArticleSelected(articleSectionPick);
   };
 

@@ -24,6 +24,13 @@
   margin-bottom: 2%;
 }
 
+
+.media {
+  width: 35%;
+  height: auto;
+  margin-bottom: 1%;
+}
+
 .website-anchor {
   margin-bottom: 2%;
   font-weight: bold;

@@ -4,22 +4,28 @@
   align-items: center;
   width: auto;
   cursor: default;
-  border-bottom: 2px solid black;
+  box-shadow: 0 8px 6px -8px black;
 }
 
 .article-title {
   margin-bottom: 0;
   margin-top: 0;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.article-title:hover {
+  transform: scale(1.05);
 }
 
 .section {
-  margin-bottom: 0;
+  margin-bottom: 1%;
   cursor: default;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .byline {
   margin-top: 0;
   cursor: default;
-  /* width: 90%; */
 }

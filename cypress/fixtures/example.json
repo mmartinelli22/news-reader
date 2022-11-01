@@ -1,0 +1,206 @@
+{
+  "results": [
+    {
+      "section": "movies",
+      "subsection": "",
+      "title": "James Cameron and the Cast of ‘Avatar: The Way of Water’ Hold Their Breath",
+      "abstract": "The original was the biggest hit ever, but the sequel still took a long time to come together. How will it resonate in a different era of moviegoing?",
+      "url": "https://www.nytimes.com/2022/10/25/movies/avatar-way-of-the-water-james-cameron.html",
+      "uri": "nyt://article/688a8831-3016-5430-83ba-dace5a14df76",
+      "byline": "By Kyle Buchanan",
+      "item_type": "Article",
+      "updated_date": "2022-10-26T12:16:15-04:00",
+      "created_date": "2022-10-25T12:47:18-04:00",
+      "published_date": "2022-10-25T12:47:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Movies",
+        "Avatar (Movie)",
+        "Avatar: The Way of Water (Movie)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Cameron, James",
+        "Weaver, Sigourney",
+        "Worthington, Sam",
+        "Saldana, Zoe"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/10/25/arts/25avatar-interviews1/25avatar-interviews1-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 1080,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Avatar” sequel arrives 13 years after the original, and now Sam Worthington’s Jake Sully, at right, is the father of a brood.",
+          "copyright": "20th Century Studios"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/10/25/arts/25avatar-interviews1/25avatar-interviews1-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Avatar” sequel arrives 13 years after the original, and now Sam Worthington’s Jake Sully, at right, is the father of a brood.",
+          "copyright": "20th Century Studios"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/10/25/arts/25avatar-interviews1/25avatar-interviews1-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Avatar” sequel arrives 13 years after the original, and now Sam Worthington’s Jake Sully, at right, is the father of a brood.",
+          "copyright": "20th Century Studios"
+        }
+      ],
+      "short_url": "https://nyti.ms/3W3e4tK"
+    },
+    {
+      "section": "books",
+      "subsection": "review",
+      "title": "Bono, With or Without U2",
+      "abstract": "In his new book, “Surrender,” the singer remembers hanging out with everyone from the Edge to Bill Gates.",
+      "url": "https://www.nytimes.com/2022/10/30/books/review/bono-memoir-surrender-40-songs-one-story.html",
+      "uri": "nyt://article/56ea0b17-71a4-5a10-a44d-7ecfc117f39d",
+      "byline": "By Alan Light",
+      "item_type": "Article",
+      "updated_date": "2022-10-30T14:15:54-04:00",
+      "created_date": "2022-10-30T05:00:11-04:00",
+      "published_date": "2022-10-30T05:00:11-04:00",
+      "material_type_facet": "",
+      "kicker": "Nonfiction",
+      "des_facet": [
+        "Books and Literature",
+        "Pop and Rock Music",
+        "Content Type: Personal Profile",
+        "Surrender: 40 Songs, One Story (Book)"
+      ],
+      "org_facet": ["U2 (Music Group)"],
+      "per_facet": ["Bono"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/11/01/books/review/01Bono-review1/merlin_30423634_e368f57b-ad9f-4886-ab56-698769cb8265-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bono the memoirist wrestles with “the pseudo-religious part of being a rock star, how we put the messy in messianic.”",
+          "copyright": "Chad Batka for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/01/books/review/01Bono-review1/merlin_30423634_e368f57b-ad9f-4886-ab56-698769cb8265-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bono the memoirist wrestles with “the pseudo-religious part of being a rock star, how we put the messy in messianic.”",
+          "copyright": "Chad Batka for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/11/01/books/review/01Bono-review1/01Bono-review1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bono the memoirist wrestles with “the pseudo-religious part of being a rock star, how we put the messy in messianic.”",
+          "copyright": "Chad Batka for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3FtQtg1"
+    },
+    {
+      "section": "books",
+      "subsection": "",
+      "title": "15 Books Coming in November",
+      "abstract": "A previously unpublished novel by Katherine Dunn, Matthew Perry’s harrowing account of yearslong addiction, the winner of the Booker Prize — and more.",
+      "url": "https://www.nytimes.com/2022/10/27/books/new-books-november.html",
+      "uri": "nyt://article/7025945a-e272-5028-84e7-3892fb0d4878",
+      "byline": "By Joumana Khatib",
+      "item_type": "Article",
+      "updated_date": "2022-10-29T08:59:23-04:00",
+      "created_date": "2022-10-27T11:45:21-04:00",
+      "published_date": "2022-10-27T11:45:21-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Books and Literature",
+        "Dr No (Book)",
+        "Geek Love (Book)",
+        "Requiem for the Massacre: A Black History on the Conflict, Hope, and Fallout of the 1921 Tulsa Race Massacre (Book)",
+        "The City We Became (Book)",
+        "Man Booker Prize",
+        "The Philosophy of Modern Song (Book)",
+        "Friends, Lovers and the Terrible Thing: A Memoir (Book)",
+        "The World We Make (Book)",
+        "Art Is Life: Icons and Iconoclasts, Visionaries and Vigilantes, and Flashes of Hope in the Night (Book)",
+        "Foster (Book)",
+        "Hollywood: The Oral History (Book)",
+        "The Light We Carry: Overcoming in Uncertain Times (Book)",
+        "Toad (Book)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Dunn, Katherine (1945-2016)",
+        "Dylan, Bob",
+        "Everett, Percival",
+        "Greenidge, Kerri",
+        "Jemisin, N K",
+        "Keegan, Claire",
+        "Karunatilaka, Shehan",
+        "Obama, Michelle",
+        "Perry, Matthew",
+        "Saltz, Jerry (1951- )",
+        "Wasson, Sam",
+        "Basinger, Jeanine",
+        "Newman, Catherine (1968- )",
+        "Mufti, Shahan",
+        "Young, RJ (Journalist)",
+        "Howrey, Meg"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/10/28/books/review/27NOVEMBERBOOKS/27NOVEMBERBOOKS-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1536,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Hugo Yu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/10/28/books/review/27NOVEMBERBOOKS/27NOVEMBERBOOKS-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Hugo Yu for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/10/28/books/review/27NOVEMBERBOOKS/27NOVEMBERBOOKS-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Hugo Yu for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3SGoDQO"
+    }
+  ]
+}
