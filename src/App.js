@@ -6,9 +6,6 @@ import ArticlesContainer from "./components/ArticlesContainer/ArticlesContainer"
 import ArticleDetails from "./components/ArticleDetails/ArticleDetails";
 import { useEffect, useState } from "react";
 import fetchArticles from "./apiCalls";
-// import * as fs from 'fs'
-// require('dotenv').config()
-// console.log("PROCESS.ENV API KEY: ", process.env.MY_KEY)
 
 function App() {
   const [articles, setArticles] = useState([]);
