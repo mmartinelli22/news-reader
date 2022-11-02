@@ -10,14 +10,25 @@ import fetchArticles from "./apiCalls";
 function App() {
   const [articles, setArticles] = useState([]);
   const [articleSelected, setArticleSelected] = useState([]);
+  const [title, setTitle] = useState("");
 
   useEffect(() => {
-    fetchArticles().then((data) => setArticles(data.results));
+    fetchArticles("home").then((data) => setArticles(data.results));
   }, []);
 
   const displaySingleArticle = (title) => {
     const articleSectionPick = articles.find((art) => art.title === title);
     setArticleSelected(articleSectionPick);
+  };
+
+  const displayNewSection = (section) => {
+    fetchArticles(section).then((data) => setArticles(data.results));
+    setTitle(section);
+  };
+
+  const displayHomeStories = () => {
+    fetchArticles("home").then((data) => setArticles(data.results));
+    setTitle("");
   };
 
   return (
@@ -28,9 +39,10 @@ function App() {
           path="/"
           render={() => (
             <div>
-              <NavBar />
+              <NavBar displayNewSection={displayNewSection} />
               <ArticlesContainer
                 articles={articles}
+                title={title}
                 displaySingleArticle={displaySingleArticle}
               />
             </div>
@@ -41,8 +53,11 @@ function App() {
           path="/details"
           render={() => (
             <div>
-              <NavBar />
-              <ArticleDetails articleSelected={articleSelected} />
+              <NavBar displayNewSection={displayNewSection} />
+              <ArticleDetails
+                articleSelected={articleSelected}
+                displayHomeStories={displayHomeStories}
+              />
             </div>
           )}
         />
@@ -50,7 +65,7 @@ function App() {
           path="*"
           render={() => (
             <div>
-              <NavBar />
+              <NavBar displayNewSection={displayNewSection} />
               <ErrorPage />
             </div>
           )}

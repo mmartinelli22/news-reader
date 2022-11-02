@@ -4,11 +4,9 @@
   align-items: center;
   width: auto;
   cursor: default;
-  box-shadow: 0 8px 6px -8px black;
 }
 
 .article-title {
-  margin-bottom: 0;
   margin-top: 0;
   cursor: pointer;
   transition: 0.2s;
@@ -25,7 +23,14 @@
   text-decoration: underline;
 }
 
+.list-media {
+  width: 25%;
+  height: auto;
+  margin-bottom: 1%;
+}
+
 .byline {
   margin-top: 0;
   cursor: default;
+  box-shadow: 0 8px 6px -8px black;
 }

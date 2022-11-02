@@ -1,7 +1,16 @@
 import "./SingleArticle.css";
 import { Link } from "react-router-dom";
 
-const SingleArticle = ({ section, title, byline, displaySingleArticle }) => {
+const SingleArticle = ({
+  section,
+  title,
+  byline,
+  multimedia,
+  displaySingleArticle,
+}) => {
+  if (!section || !title || !byline || !multimedia) {
+    return <div></div>;
+  }
   return (
     <div className="single-article-container">
       <p className="section">{section.toUpperCase()}</p>
@@ -14,6 +23,11 @@ const SingleArticle = ({ section, title, byline, displaySingleArticle }) => {
           {title}
         </h2>
       </Link>
+      <img
+        className="list-media"
+        src={!multimedia ? <div></div> : multimedia[0].url}
+        alt="/"
+      />
       <p className="byline">{byline}</p>
     </div>
   );

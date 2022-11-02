@@ -1,10 +1,17 @@
 import "./ArticlesContainer.css";
 import SingleArticle from "../SingleArticle/SingleArticle";
+import { useState } from "react";
 
-const ArticlesContainer = ({ articles, displaySingleArticle }) => {
+const ArticlesContainer = ({
+  articles,
+  section,
+  title,
+  displaySingleArticle,
+}) => {
   let sortedArticles = articles.sort((a, b) =>
     a.section > b.section ? 1 : b.section > a.section ? -1 : 0
   );
+
   const articleList = sortedArticles.map((article) => {
     return (
       <SingleArticle
@@ -18,10 +25,16 @@ const ArticlesContainer = ({ articles, displaySingleArticle }) => {
       />
     );
   });
-
+  if (!section || !articles) {
+    <p>Loading...</p>;
+  }
   return (
     <div className="section-container">
-      <h1>Top Stories</h1>
+      <h1 className="top-stories-or-title">
+        {!title
+          ? `Home Section`
+          : `${title.charAt(0).toUpperCase() + title.slice(1)} Section`}
+      </h1>
       <div className="articles-container">{articleList}</div>
     </div>
   );
