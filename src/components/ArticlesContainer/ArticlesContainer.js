@@ -7,9 +7,10 @@ const ArticlesContainer = ({
   title,
   displaySingleArticle,
 }) => {
-  let sortedArticles = articles.sort((a, b) =>
-    a.section > b.section ? 1 : b.section > a.section ? -1 : 0
-  );
+  let sortedArticles = articles.sort((a, b) => a.section.localeCompare(b.section));
+  // let sortedArticles = articles.sort((a, b) =>
+  //   a.section > b.section ? 1 : b.section > a.section ? -1 : 0
+  // );
 
   const articleList = sortedArticles.map((article) => {
     return (
