@@ -1,6 +1,5 @@
 import "./ArticlesContainer.css";
 import SingleArticle from "../SingleArticle/SingleArticle";
-import { useState } from "react";
 
 const ArticlesContainer = ({
   articles,
