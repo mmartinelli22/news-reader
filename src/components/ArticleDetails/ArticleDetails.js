@@ -2,7 +2,7 @@ import "./ArticleDetails.css";
 import { Link } from "react-router-dom";
 const dayjs = require("dayjs");
 
-const ArticleDetails = ({ articleSelected }) => {
+const ArticleDetails = ({ articleSelected, displayHomeStories }) => {
   return (
     <div className="details-container" key={articleSelected.title}>
       <h1 className="title">{articleSelected.title}</h1>
@@ -31,7 +31,7 @@ const ArticleDetails = ({ articleSelected }) => {
         Click Here to see on NY Times Website
       </a>
       <Link to="/" style={{ textDecoration: "none" }}>
-        <button>Return Home</button>
+        <button onClick={displayHomeStories}>Return Home</button>
       </Link>
     </div>
   );

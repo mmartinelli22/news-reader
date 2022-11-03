@@ -1,9 +1,10 @@
+import './ErrorPage.css'
 import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
     <div>
-      <h1>
+      <h1 className="error-text">
         Something Went Wrong! Please hit the "Return Home" button to return to
         Articles.
       </h1>

@@ -1,6 +1,6 @@
-const fetchArticles = () => {
+const fetchArticles = (section) => {
   return fetch(
-    `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=jpWw4XQtkRyplJEanHSnWbDdKgJfOGpw`
+    `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=jpWw4XQtkRyplJEanHSnWbDdKgJfOGpw`
   )
     .then((response) => {
       if (!response.ok) {

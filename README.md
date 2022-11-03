@@ -32,24 +32,28 @@ _For the curious developer:_
 
 **USER FLOW:**
 
-Main Page Article List:
+Home Page Articles:
 
-https://user-images.githubusercontent.com/97558758/199298662-c77a0ab5-3f15-4b97-bcc7-f2ea4b9aee14.mov
+https://user-images.githubusercontent.com/97558758/199842209-97907f8d-1f38-4ed4-b43a-bb6038b44844.mov
 
 Article Details:
 
-https://user-images.githubusercontent.com/97558758/199298857-5e954a06-a7c7-4f0c-b777-228d90c05768.mov
+https://user-images.githubusercontent.com/97558758/199842286-f5079476-ba36-41eb-8893-79b5f8dc4382.mov
 
-Article Details Link Article to NY Times Website:
+Return Home or Visit Article on NY Times Website:
 
-https://user-images.githubusercontent.com/97558758/199298861-7bd6ca47-84db-47e1-a3a3-22a334d6eac5.mov
+https://user-images.githubusercontent.com/97558758/199842358-837c77c5-970a-41a3-bd92-b599ca53690b.mov
+
+Filter Dropdown by Section:
+
+https://user-images.githubusercontent.com/97558758/199842628-d0d4937d-6fa4-4180-9fad-a42ce94f5ab6.mov
 
 
 **ERROR HANDLING:**
 
 Bad URL:
 
-https://user-images.githubusercontent.com/97558758/199298862-c44ff294-7d29-4a8d-bd15-9ee6c6a1ce18.mov
+https://user-images.githubusercontent.com/97558758/199842715-5bf0ef9a-4cf2-4100-a44d-11738b723e19.mov
 
 <br>
 

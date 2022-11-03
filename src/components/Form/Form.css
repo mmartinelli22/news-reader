@@ -1,0 +1,11 @@
+.dropdown-container {
+  display: flex;
+  width: auto;
+  margin-right: 1%;
+}
+
+.section-dropdown {
+  width: 10em;
+  text-align: center;
+  background-color: lightgray;
+}

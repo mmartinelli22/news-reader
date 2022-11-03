@@ -3,6 +3,9 @@
   align-items: center;
   background-color: black;
   color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .title-text {
